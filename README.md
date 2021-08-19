@@ -31,6 +31,7 @@ module "mysql_user" {
 }
 ```
 
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
@@ -75,3 +76,4 @@ No modules.
 |------|-------------|
 | <a name="output_db_name"></a> [db\_name](#output\_db\_name) | The name of the database. |
 | <a name="output_mysql_user_id"></a> [mysql\_user\_id](#output\_mysql\_user\_id) | The id of the user created, composed as username@host |
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

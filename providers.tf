@@ -6,3 +6,9 @@ terraform {
     }
   }
 }
+
+provider "mysql" {
+  endpoint = "localhost"
+  username = "root"
+  password = "root"
+}
