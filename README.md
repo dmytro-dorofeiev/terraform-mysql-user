@@ -1,8 +1,8 @@
-# Terraform module create mysql user and database
+# Terraform module mysql
 
 ## About
 
-This module allows to manage and create database and user.
+This module allows to manage database and user.
 
 ## Example
 
