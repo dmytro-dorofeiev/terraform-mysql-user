@@ -15,7 +15,7 @@ provider "mysql" {
 }
 
 module "mysql_user" {
-  source = "../modules/terraform-mysql-user"
+  source = "git::https://github.com/dmytro-dorofeiev/modules/terraform-mysql-user"
 
   providers = {
     mysql = mysql.mydb
